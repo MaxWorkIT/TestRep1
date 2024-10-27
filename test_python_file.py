@@ -1,1 +1,1 @@
-print(not 0 == 1)
+print(not 0 == 1, not 0 != 1)
