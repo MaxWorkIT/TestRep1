@@ -7,6 +7,10 @@ app = FastAPI(
 
 @app.get(path="/greeting{name}", description="greeting by name")
 def greeting(name: str) -> str:
+    """
+    :param name: str
+    :return: str = f"Halo, {name}!"
+    """
     return f"Halo, {name}!"
 
 
